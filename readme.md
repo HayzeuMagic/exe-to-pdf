@@ -5,6 +5,10 @@
 
 <hr>
 
+demo video: https://drive.google.com/file/d/1hBlqFhoAzBjNp-m3VZchQ6XjZZgXFXi0/view?usp=sharing
+
+downloadables: https://drive.google.com/drive/folders/1TeWFy63-GBd0ItOfedSpzVJcegvqyxQN?usp=sharing
+
 # Step 1: Opening VMware
 * Open the VMware app on your PC, press ⊞ Windows key and type "VMware"
 
