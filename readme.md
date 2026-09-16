@@ -77,13 +77,14 @@ Before starting the virtual machine, verify that its network adapter is configur
 
 3. In the **Hardware** tab, select **Network Adapter**.
    
-<img width="746" height="724" alt="image" src="https://github.com/user-attachments/assets/aa1c2673-b203-4405-9e14-0c3f3755e226" />
-
 4. Make sure the network connection is set to:
 
    ```text
    NAT
    ```
+
+<img width="746" height="724" alt="image" src="https://github.com/user-attachments/assets/aa1c2673-b203-4405-9e14-0c3f3755e226" />
+
 ### Why NAT?
 
 NAT allows the Kali Linux virtual machine to access the network through the host computer while keeping the virtual machine separated from the physical network.
