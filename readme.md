@@ -100,24 +100,24 @@ Shared Folders allow you to access files stored on your Windows computer from in
 
 2. Select **Shared Folders** from the left-side menu.
 
-   <img width="756" height="723" alt="image" src="https://github.com/user-attachments/assets/b5c16636-bca7-4e06-9cb2-583680ab282f" />
+<img width="756" height="723" alt="image" src="https://github.com/user-attachments/assets/b5c16636-bca7-4e06-9cb2-583680ab282f" />
 
 4. Select:
 
    ```text
    Always enabled
    ```
-   <img width="747" height="689" alt="image" src="https://github.com/user-attachments/assets/a5919461-4852-49cb-9665-380e694bde9c" />
+ <img width="747" height="689" alt="image" src="https://github.com/user-attachments/assets/a5919461-4852-49cb-9665-380e694bde9c" />
 
 
 5. Click **Add...**.
-   <img width="747" height="689" alt="image" src="https://github.com/user-attachments/assets/0e1a0196-c7c6-49a2-90c3-6f58fb2e05f9" />
+<img width="747" height="689" alt="image" src="https://github.com/user-attachments/assets/0e1a0196-c7c6-49a2-90c3-6f58fb2e05f9" />
 
 
 7. The **Add Shared Folder Wizard** will appear.
 
 8. Click **Next**.
-   <img width="747" height="720" alt="image" src="https://github.com/user-attachments/assets/84a7d479-0cd8-4540-806e-461d190fb822" />
+<img width="747" height="720" alt="image" src="https://github.com/user-attachments/assets/84a7d479-0cd8-4540-806e-461d190fb822" />
 
 
 10. Click **Browse...**.
