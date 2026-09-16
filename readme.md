@@ -30,10 +30,7 @@ This laboratory uses VMware to run the provided Kali Linux virtual machine.
    ```
 
 3. Open **VMware Workstation** from the search results.
-
-4. Wait for VMware to finish loading before proceeding to the next step.
-
-
+<img width="820" height="287" alt="image" src="https://github.com/user-attachments/assets/aef36bf2-6420-459b-bb5a-ef2af34896fb" />
 
 ---
 
@@ -42,6 +39,7 @@ This laboratory uses VMware to run the provided Kali Linux virtual machine.
 1. In VMware, click **File** in the top-left corner.
 
 2. Select **Open**.
+<img width="279" height="270" alt="image" src="https://github.com/user-attachments/assets/382c42d0-3acb-4a00-98de-94a83b5993c9" />
 
 3. Navigate to the `_RivanVMs` folder.
 
@@ -60,6 +58,7 @@ This laboratory uses VMware to run the provided Kali Linux virtual machine.
    ```text
    _D3PentestVM.vmx
    ```
+<img width="951" height="555" alt="image" src="https://github.com/user-attachments/assets/0ba9829e-f4d7-4371-b7e6-aa0aff717b76" />
 
 7. VMware should now display `_D3PentestVM` in the virtual machine list.
 
@@ -311,9 +310,7 @@ After opening `msedge.exe`, Resource Hacker will display the executable's resour
 <img width="774" height="421" alt="image" src="https://github.com/user-attachments/assets/72cacee5-5709-438a-a11d-da1b89cd09d2" />
 
 5. Select the option to **Save [Icon Group] resource** / save the icon resource.
-
-6. Choose a location where you can easily find the exported file.
-
+<img width="491" height="150" alt="image" src="https://github.com/user-attachments/assets/ef5909b6-0352-46aa-9dcb-ae72057e64b6" />
 7. Save the resource as an `.ico` file.
 
 For example:
@@ -342,49 +339,36 @@ The objective is to replace the existing icon of the provided laboratory executa
 ```
 
 5. Click **Open**.
+<img width="870" height="482" alt="image" src="https://github.com/user-attachments/assets/60a19081-4a35-4041-bc1d-c8ef72a43d58" />
 
 ---
 
 ### 9.2 Add the PDF Icon Resource
 
-1. In Resource Hacker, click:
-
-   ```text
-   Action
-   ```
-
-   or the appropriate **Add binary or image resource** option in your version of Resource Hacker.
+1. In Resource Hacker, click  **Add binary or image resource**:
+<img width="777" height="392" alt="image" src="https://github.com/user-attachments/assets/222fa94a-0c41-442c-a606-49d25dd9918d" />
 
 2. Select:
-
-   ```text
-   Add binary or image resource...
-   ```
+<img width="244" height="256" alt="image" src="https://github.com/user-attachments/assets/c381c0d9-bd7d-4bd3-8797-046a23c174bf" />
 
 3. Browse to the previously extracted:
 
    ```text
    IDR_X007_PDF_DOC.ico
    ```
-
 4. Select the `.ico` file.
+<img width="1010" height="522" alt="image" src="https://github.com/user-attachments/assets/8a6bd5a0-f5b7-44fa-8b78-8c78275f2ae0" />
 
-5. Confirm the resource import.
+5. Click Add Resource
+<img width="246" height="268" alt="image" src="https://github.com/user-attachments/assets/9dcee90c-4e91-4de9-b6b7-2cef2754ed50" />
 
-6. Verify that the new icon resource appears in the resource tree.
+6. Click file and save as.
+7. Save it in the same folder C:/exe-to-pdf
+8. It will prompt that the file already exists, just click replace.
+<img width="772" height="393" alt="image" src="https://github.com/user-attachments/assets/7a26d8e8-aeec-4e63-a9fe-5efd35f1e50c" />
 
----
-
-### 9.3 Save the Modified Executable
-
-1. Click **File**.
-2. Select **Save**.
-3. If Resource Hacker asks where to save the modified file, choose the appropriate laboratory folder.
-4. Confirm that the modified executable has been saved successfully.
-
-> **Lab note:** Keep the original `1mb.exe` unchanged if you may need it later. Saving a separate copy makes it easier to restore the original file.
-
----
+9. Verify that the icon of 1mb.exe should show up as a pdf icon in your file explorer.
+<img width="366" height="135" alt="image" src="https://github.com/user-attachments/assets/67a0a8a4-13b4-4b9d-860c-fd27a79ecd06" />
 
 # Step 10: Reverse the Right-to-Left Override
 
@@ -401,6 +385,12 @@ The RLO character can affect how characters in a filename are visually displayed
 how-to-reverse.txt
 ```
 
+It should be under File System > mnt > hgfs 
+<img width="1276" height="791" alt="image" src="https://github.com/user-attachments/assets/320b9d5b-241e-417b-9acf-17a33ff71d74" />
+<img width="643" height="680" alt="image" src="https://github.com/user-attachments/assets/e897781b-f571-402f-a579-b003f2a7cb75" />
+<img width="639" height="635" alt="image" src="https://github.com/user-attachments/assets/586c7eef-dde2-4d37-8567-fe4094ad764c" />
+
+
 3. Open the file using a text editor.
 
 For example:
@@ -408,10 +398,10 @@ For example:
 ```bash
 cat how-to-reverse.txt
 ```
+<img width="660" height="568" alt="image" src="https://github.com/user-attachments/assets/b645f5c5-7332-4b1e-bfdd-e2d0f533aaab" />
+<img width="766" height="413" alt="image" src="https://github.com/user-attachments/assets/a5f19c59-7565-4e69-9de2-4b3b63798684" />
 
-or open it using the graphical text editor.
-
-4. Carefully follow the instructions contained in the file.
+If you get confused at this point, please watch the video demo at the top of this documentation and follow the steps there.
 
 ---
 
@@ -423,126 +413,24 @@ The intended laboratory filename is:
 high-level-complexe.pdf
 ```
 
-Rename the provided laboratory executable according to the instructions in `how-to-reverse.txt`.
+1. Go back to the hgfs folder and right click 1mb.exe
+<img width="684" height="419" alt="image" src="https://github.com/user-attachments/assets/f4f39c5f-e5b1-4503-8a2b-9e8cd9581700" />
 
-> **Important:** A file's displayed extension and icon do not change what the file actually is. An executable remains an executable even if its filename or icon is made to appear like a PDF.
+2. Select properties and rename it from there
+3. Erase all text and type
+   'high-level-compl -> ctrl + shift -> U202E -> fdp.exe'
+<img width="529" height="511" alt="image" src="https://github.com/user-attachments/assets/04fded9e-873f-48ca-81ad-0e9d57699877" />
+4. Make sure it you're not changing the actual file into a .pdf file. We're just using Right to Left Override
+ **Important:** A file's displayed extension and icon do not change what the file actually is. An executable remains an executable even if its filename or icon is made to appear like a PDF.
 
----
+<img width="529" height="516" alt="image" src="https://github.com/user-attachments/assets/2bdc2a2c-2544-4da2-af73-73cb7c17a767" />
 
-# 🧪 Lab Summary
-
-This laboratory covers the following concepts:
-
-| Step | Activity                              | Platform         |
-| ---- | ------------------------------------- | ---------------- |
-| 1    | Open VMware                           | Windows          |
-| 2    | Open `_D3PentestVM`                   | Windows          |
-| 3    | Configure NAT                         | Windows / VMware |
-| 4    | Configure Shared Folders              | Windows / VMware |
-| 5    | Start the VM                          | Windows / VMware |
-| 6    | Log in to Kali Linux                  | Kali Linux       |
-| 7    | Mount the shared folder               | Kali Linux       |
-| 8    | Extract PDF icon                      | Windows          |
-| 9    | Modify executable icon                | Windows          |
-| 10   | Examine/reverse RLO filename behavior | Kali Linux       |
+5. Double check in your Windows File Explorer, it should look like a .pdf file with the pdf icon
+<img width="536" height="305" alt="image" src="https://github.com/user-attachments/assets/8dddd037-7e0a-4694-8a6a-90455bbe7363" />
 
 ---
 
-# 🔧 Troubleshooting
 
-## Shared Folder Does Not Appear
-
-If the shared folder is not visible, verify that:
-
-1. VMware Shared Folders is set to:
-
-   ```text
-   Always enabled
-   ```
-
-2. The folder was correctly added under:
-
-   ```text
-   VM Settings → Options → Shared Folders
-   ```
-
-3. The shared-folder name in the mounting command is correct.
-
-4. VMware Tools / open-vm-tools is installed and working in Kali Linux.
-
-You can check whether the VMware filesystem is available with:
-
-```bash
-which vmhgfs-fuse
-```
-
----
-
-## `vmhgfs-fuse` Command Not Found
-
-If Kali reports that `vmhgfs-fuse` cannot be found, check whether the VMware guest tools are installed.
-
-You can inspect the installed packages with:
-
-```bash
-dpkg -l | grep open-vm-tools
-```
-
-If required, install the appropriate VMware tools package for your Kali installation.
-
----
-
-## Permission Denied
-
-If the mount command returns a permission-related error, make sure you are using:
-
-```bash
-sudo
-```
-
-For example:
-
-```bash
-sudo vmhgfs-fuse .host:/<shared-folder-name> /mnt/hgfs -o allow_other
-```
-
----
-
-## Kali Linux Has No Network Connection
-
-Return to:
-
-```text
-VM Settings → Network Adapter
-```
-
-and verify that:
-
-```text
-NAT
-```
-
-is selected.
-
----
-
-## Resource Hacker Cannot Open `msedge.exe`
-
-Make sure you selected the actual Microsoft Edge executable and that Resource Hacker has sufficient permissions to access the file.
-
-If necessary, run Resource Hacker with appropriate Windows permissions.
-
----
-
-# ⚠️ Laboratory Safety
-
-This exercise should be performed only in the provided **isolated laboratory environment** and with files supplied for the exercise.
-
-Do not rename, modify, distribute, or execute unknown executables on systems that you do not own or have explicit authorization to test.
-
-A renamed executable or an executable displaying a PDF icon **does not become a PDF file**. Always verify the actual file type before opening a suspicious file.
-
----
 
 <div align="center">
 
