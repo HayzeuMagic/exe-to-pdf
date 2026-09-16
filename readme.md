@@ -273,17 +273,15 @@ The purpose of this step is to extract an icon resource from Microsoft Edge and 
 1. On your Windows PC, open **Resource Hacker**.
 2. Click **File**.
 3. Select **Open**.
-4. Navigate to the location of the Microsoft Edge executable.
+<img width="778" height="425" alt="image" src="https://github.com/user-attachments/assets/13cad68e-c3d8-4749-8d49-4ad8075466fb" />
 
-> **Note:** The exact location of `msedge.exe` may vary depending on your Windows installation.
-
-5. Select:
-
+5. Navigate to the location of the Microsoft Edge executable. It should be in your downloaded folder in C:/exe-to-pdf
+7. Select:
 ```text
 msedge.exe
 ```
-
 6. Click **Open**.
+<img width="1013" height="525" alt="image" src="https://github.com/user-attachments/assets/bb1317e2-5db6-4d67-8dc5-18a344c14445" />
 
 ---
 
@@ -310,6 +308,7 @@ After opening `msedge.exe`, Resource Hacker will display the executable's resour
    ```text
    IDR_X007_PDF_DOC
    ```
+<img width="774" height="421" alt="image" src="https://github.com/user-attachments/assets/72cacee5-5709-438a-a11d-da1b89cd09d2" />
 
 5. Select the option to **Save [Icon Group] resource** / save the icon resource.
 
