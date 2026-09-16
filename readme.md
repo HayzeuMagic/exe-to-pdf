@@ -66,6 +66,7 @@ This laboratory uses VMware to run the provided Kali Linux virtual machine.
 
 # Step 3: Configure the Virtual Machine Network
 
+WARNING: Make sure that the Virtual Machine is powered off!
 Before starting the virtual machine, verify that its network adapter is configured correctly.
 
 1. Select `_D3PentestVM` in VMware.
