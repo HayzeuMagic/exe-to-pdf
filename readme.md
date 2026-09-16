@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/e4d90e60-ee23-4e28-b9c1-ab35e68fed13" alt="Rivan Cyber Training Institute Logo" width="200">
 
   <h1>RIVAN CYBER TRAINING INSTITUTE</h1>
-  <h2>D3 Pentest Lab</h2>
+  <h2>EXE to PDF Lab</h2>
 </div>
 
 <hr>
