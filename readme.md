@@ -313,6 +313,7 @@ After opening `msedge.exe`, Resource Hacker will display the executable's resour
 
 5. Select the option to **Save [Icon Group] resource** / save the icon resource.
 <img width="491" height="150" alt="image" src="https://github.com/user-attachments/assets/ef5909b6-0352-46aa-9dcb-ae72057e64b6" />
+
 7. Save the resource as an `.ico` file.
 
 For example:
