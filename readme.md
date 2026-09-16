@@ -103,7 +103,7 @@ Shared Folders allow you to access files stored on your Windows computer from in
 
 <img width="756" height="723" alt="image" src="https://github.com/user-attachments/assets/b5c16636-bca7-4e06-9cb2-583680ab282f" />
 
-4. Select:
+3. Select:
 
    ```text
    Always enabled
@@ -111,35 +111,35 @@ Shared Folders allow you to access files stored on your Windows computer from in
  <img width="747" height="689" alt="image" src="https://github.com/user-attachments/assets/a5919461-4852-49cb-9665-380e694bde9c" />
 
 
-5. Click **Add...**.
+4. Click **Add...**.
 <img width="747" height="689" alt="image" src="https://github.com/user-attachments/assets/0e1a0196-c7c6-49a2-90c3-6f58fb2e05f9" />
 
 
-7. The **Add Shared Folder Wizard** will appear.
+5. The **Add Shared Folder Wizard** will appear.
 
-8. Click **Next**.
+6. Click **Next**.
 <img width="747" height="720" alt="image" src="https://github.com/user-attachments/assets/84a7d479-0cd8-4540-806e-461d190fb822" />
 
 
-10. Click **Browse...**.
+7. Click **Browse...**.
 <img width="417" height="373" alt="image" src="https://github.com/user-attachments/assets/c86d6f68-095a-4381-a709-78cbfbbf331b" />
 
-11. Select This PC > Local Disk (C:) > exe to pdf
+8. Select This PC > Local Disk (C:) > exe to pdf
 
 <img width="315" height="365" alt="image" src="https://github.com/user-attachments/assets/1b27df87-5f84-4bb6-8dfd-342c24a2335e" />
 
 
-13. Click **Next**.
+9. Click **Next**.
 
 <img width="426" height="377" alt="image" src="https://github.com/user-attachments/assets/239871ff-6eec-421b-9e5d-22fba96ff4d0" />
 
-15. Confirm the shared-folder settings.
+10. Confirm the shared-folder settings.
     
 <img width="419" height="370" alt="image" src="https://github.com/user-attachments/assets/40290bc0-3930-41cb-91a7-fc96a38b32df" />
 
-17. Click **Finish**.
+11. Click **Finish**.
 
-18. Double Check, make sure your shared files looks like this
+12. Double Check, make sure your shared files looks like this
 <img width="743" height="720" alt="image" src="https://github.com/user-attachments/assets/c820235b-38e8-4602-a151-b4c6b82402d1" />
 
 
@@ -166,9 +166,9 @@ The folder name used by VMware will be needed in the Kali Linux mounting command
 <img width="1322" height="774" alt="image" src="https://github.com/user-attachments/assets/12279401-b0ac-427d-a2f1-5cc64e201ddd" />
 
 
-4. Wait for the virtual machine to boot.
+3. Wait for the virtual machine to boot.
 
-5. If VMware displays a message asking whether the virtual machine was **moved or copied**, select:
+4. If VMware displays a message asking whether the virtual machine was **moved or copied**, select:
 
    ```text
    I copied it
@@ -208,9 +208,9 @@ Once the Kali Linux login screen appears:
    kali
    ```
 
-5. Press **Enter**.
+4. Press **Enter**.
 
-6. Wait for the Kali Linux desktop to load.
+5. Wait for the Kali Linux desktop to load.
 
 ---
 
