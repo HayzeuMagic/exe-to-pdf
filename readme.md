@@ -21,8 +21,10 @@ https://drive.google.com/drive/folders/1TeWFy63-GBd0ItOfedSpzVJcegvqyxQN?usp=sha
 # **BEFORE WE START MAKE SURE TO EXTRACT THE DOWNLOADED ZIP FILE TO (C:) DRIVE**
 
 1.Go to Local Disk (C:) and create a folder named `exe-to-pdf` 
+<img width="881" height="353" alt="image" src="https://github.com/user-attachments/assets/526a30cc-1b2d-47fa-87b4-a65155fa64a9" />
 
-2.Extract the zipped file and to the fold we just created
+
+2.Extract the zipped file and to the folder we just created
 
 <img width="607" height="441" alt="image" src="https://github.com/user-attachments/assets/339a1d18-4bc5-4cb6-9dab-200f6367bafe" />
 
