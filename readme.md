@@ -17,6 +17,19 @@ https://drive.google.com/drive/folders/1TeWFy63-GBd0ItOfedSpzVJcegvqyxQN?usp=sha
 
 ---
 
+
+# **BEFORE WE START MAKE SURE TO EXTRACT THE DOWNLOADED ZIP FILE TO (C:) DRIVE**
+
+1.Go to Local Disk (C:) and create a folder named `exe-to-pdf` 
+
+2.Extract the zipped file and to the fold we just created
+
+<img width="607" height="441" alt="image" src="https://github.com/user-attachments/assets/339a1d18-4bc5-4cb6-9dab-200f6367bafe" />
+
+3. Double check that the folder should be in Local Disk (C:)/exe-to-pdf
+   
+<img width="843" height="520" alt="image" src="https://github.com/user-attachments/assets/76f90840-ecaa-46ea-92cd-76c4fa7780b9" />
+
 # Step 1: Open VMware
 
 This laboratory uses VMware to run the provided Kali Linux virtual machine.
@@ -66,7 +79,7 @@ This laboratory uses VMware to run the provided Kali Linux virtual machine.
 
 # Step 3: Configure the Virtual Machine Network
 
-WARNING: Make sure that the Virtual Machine is powered off!
+# **WARNING: Make sure that the Virtual Machine is powered off!**
 Before starting the virtual machine, verify that its network adapter is configured correctly.
 
 1. Select `_D3PentestVM` in VMware.
