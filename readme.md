@@ -340,13 +340,13 @@ IDR_X007_PDF_DOC.ico
 
 ---
 
-# Step 9: Change the `1mb.exe` Icon
+# Step 9: Change the `ransomware.exe` Icon
 
 This step is also performed on the **Windows host computer** using Resource Hacker.
 
 The objective is to replace the existing icon of the provided laboratory executable with the extracted PDF icon.
 
-### 9.1 Open `1mb.exe`
+### 9.1 Open `ransomware.exe`
 
 1. Open **Resource Hacker**.
 2. Click **File**.
@@ -354,7 +354,7 @@ The objective is to replace the existing icon of the provided laboratory executa
 4. Locate:
 
 ```text
-1mb.exe
+ransomware.exe
 ```
 
 5. Click **Open**.
@@ -386,7 +386,7 @@ The objective is to replace the existing icon of the provided laboratory executa
 8. It will prompt that the file already exists, just click replace.
 <img width="772" height="393" alt="image" src="https://github.com/user-attachments/assets/7a26d8e8-aeec-4e63-a9fe-5efd35f1e50c" />
 
-9. Verify that the icon of 1mb.exe should show up as a pdf icon in your file explorer.
+9. Verify that the icon of ransomware.exe should show up as a pdf icon in your file explorer.
 <img width="366" height="135" alt="image" src="https://github.com/user-attachments/assets/67a0a8a4-13b4-4b9d-860c-fd27a79ecd06" />
 
 # Step 10: Reverse the Right-to-Left Override
@@ -432,7 +432,7 @@ The intended laboratory filename is:
 high-level-complexe.pdf
 ```
 
-1. Go back to the hgfs folder and right click 1mb.exe
+1. Go back to the hgfs folder and right click ransomware.exe
 <img width="684" height="419" alt="image" src="https://github.com/user-attachments/assets/f4f39c5f-e5b1-4503-8a2b-9e8cd9581700" />
 
 2. Select properties and rename it from there
