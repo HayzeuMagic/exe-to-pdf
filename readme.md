@@ -365,8 +365,6 @@ ransomware.exe
 5. Click **Open**.
 <img width="1296" height="714" alt="{7F9DCA31-4037-49AD-90B2-EAC5393A1FD7}" src="https://github.com/user-attachments/assets/fa3825eb-c233-4167-88a3-8b5d13d7c5d2" />
 
-" />
-
 ---
 
 ### 9.2 Add the PDF Icon Resource
