@@ -388,7 +388,8 @@ ransomware.exe
 <img width="772" height="393" alt="image" src="https://github.com/user-attachments/assets/7a26d8e8-aeec-4e63-a9fe-5efd35f1e50c" />
 
 9. Verify that the icon of ransomware.exe should show up as a pdf icon in your file explorer.
-<img width="366" height="135" alt="image" src="https://github.com/user-attachments/assets/67a0a8a4-13b4-4b9d-860c-fd27a79ecd06" />
+<img width="643" height="193" alt="{546BDBBD-DDE4-4F80-9ACB-B41859585939}" src="https://github.com/user-attachments/assets/ad1d5f12-4add-43c4-9f6f-4010ba5469a3" />
+
 
 # Step 10: Reverse the Right-to-Left Override
 
