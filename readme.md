@@ -363,28 +363,24 @@ ransomware.exe
 ```
 
 5. Click **Open**.
-<img width="870" height="482" alt="image" src="https://github.com/user-attachments/assets/60a19081-4a35-4041-bc1d-c8ef72a43d58" />
+<img width="1296" height="714" alt="{7F9DCA31-4037-49AD-90B2-EAC5393A1FD7}" src="https://github.com/user-attachments/assets/fa3825eb-c233-4167-88a3-8b5d13d7c5d2" />
+
+" />
 
 ---
 
 ### 9.2 Add the PDF Icon Resource
 
-1. In Resource Hacker, click  **Add binary or image resource**:
-<img width="777" height="392" alt="image" src="https://github.com/user-attachments/assets/222fa94a-0c41-442c-a606-49d25dd9918d" />
+1. In Resource Hacker, drop down the **Icon Group**
+2. You should see the **1:0**
+<img width="200" height="251" alt="{F364300E-1DEF-486D-957C-9A6FD08065DF}" src="https://github.com/user-attachments/assets/157735d4-eabe-4f63-aa45-196c01ae4147" />
 
-2. Select:
-<img width="244" height="256" alt="image" src="https://github.com/user-attachments/assets/c381c0d9-bd7d-4bd3-8797-046a23c174bf" />
+3. Right Click **1:0** and then **Replace Icon**
+<img width="445" height="273" alt="{3E3DDE26-4B19-49FF-8814-372C6AD7EC78}" src="https://github.com/user-attachments/assets/2ad66685-b458-41a2-bb24-d7922125adfe" />
 
-3. Browse to the previously extracted:
-
-   ```text
-   IDR_X007_PDF_DOC.ico
-   ```
-4. Select the `.ico` file.
-<img width="1010" height="522" alt="image" src="https://github.com/user-attachments/assets/8a6bd5a0-f5b7-44fa-8b78-8c78275f2ae0" />
-
-5. Click Add Resource
-<img width="246" height="268" alt="image" src="https://github.com/user-attachments/assets/9dcee90c-4e91-4de9-b6b7-2cef2754ed50" />
+4. A pop-up window will show up. Click **Open File with new icon..** then select **IDR_X007_PDF_DOC**.
+5. Select replace in the bottom right.
+<img width="530" height="418" alt="{9C2700CC-CA3E-49C2-844A-2CFEAC349020}" src="https://github.com/user-attachments/assets/06fdfcfd-d41a-4352-8d39-5da95fc5c911" />
 
 6. Click file and save as.
 7. Save it in the same folder C:/exe-to-pdf
