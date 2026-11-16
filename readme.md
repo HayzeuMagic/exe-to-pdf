@@ -10,8 +10,7 @@
 ##  Lab Resources
 
 **Demo Video:**
-https://drive.google.com/file/d/1hBlqFhoAzBjNp-m3VZchQ6XjZZgXFXi0/view?usp=sharing
-
+https://drive.google.com/file/d/1tQVjRf6Mi7u81_tfb2HwGMOh3zJqNt4T/view?usp=sharing
 **Downloadable Files:**
 https://drive.google.com/drive/folders/1TeWFy63-GBd0ItOfedSpzVJcegvqyxQN?usp=sharing
 
